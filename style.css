@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+}
+
+
+canvas#cloth-canvas {
+    position: absolute;
+    left: 0;
+}
+
+
+.custom-panel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.custom-panel-container {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.custom-panel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.custom-panel-container input[type="text"],
+.custom-panel-container input[type="color"],
+.custom-panel-container input[type="range"] {
+    width: 80%;
+    /* 调整输入框的宽度 */
+    padding: 5px;
+    /* 添加内边距 */
+    margin: 10px 0;
+    /* 添加外边距 */
+}
+
+.custom-panel-container label {
+    font-size: 1.2em;
+    /* 调整标签的字体大小 */
+    color: #333;
+    /* 调整标签的颜色 */
+}
